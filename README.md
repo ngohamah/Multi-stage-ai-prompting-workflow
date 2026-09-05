@@ -2,7 +2,7 @@
 
 A lightweight, single-file Python CLI tool for logging and summarizing personal expenses. Data persists locally in a CSV file.
 
-> This project is Stage 2 of a Chat AI → CLI AI prompt chaining workflow. See the full lab report: [Multi-Stage_AI_Workflow_Lab_NgohRodney.pdf](../docs/Multi-Stage_AI_Workflow_Lab_NgohRodney%20(1).pdf)
+> This project is Stage 2 of a Chat AI → CLI AI prompt chaining workflow. See the full lab report: [Multi-Stage_AI_Workflow_Lab_NgohRodney.pdf](docs/Multi-Stage_AI_Workflow_Lab_NgohRodney.pdf)
 
 ## Features
 
@@ -20,7 +20,7 @@ A lightweight, single-file Python CLI tool for logging and summarizing personal 
 ## Installation
 
 1. Clone or download this repository
-2. Ensure `tracker.py` is in your working directory
+2. `cd expense-tracker` — all commands below assume this is your working directory
 3. No installation or dependencies needed!
 
 ## Usage
