@@ -123,6 +123,18 @@ The test suite covers:
 - **CSV storage**: Human-readable format, easy to edit or export
 - **No external dependencies**: Works anywhere Python 3.6+ is available
 
+## `adaptability-check/`
+
+This sibling directory is not part of the tool itself — it's evidence for the lab's
+adaptability claim (see [multistage.md](multistage.md) §2). The workflow's premise is
+that `spec.md` is tool-agnostic: any CLI-based AI given the spec should be able to
+implement it. `expense-tracker/` was built by GitHub Copilot CLI; `adaptability-check/`
+is a second, independent implementation of the *same unmodified spec*, built by a
+different CLI-based AI tool (Claude Code), to test that claim rather than just assert
+it. It has its own `tracker.py` and `test_tracker.py`, written from scratch without
+copying `expense-tracker/tracker.py`, and passes its own 20-check test suite. It isn't
+meant to be maintained or used going forward — it's a one-time comparison artifact.
+
 ## License
 
 This project is provided as-is for educational and personal use.
