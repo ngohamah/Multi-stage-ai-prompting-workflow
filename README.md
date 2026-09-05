@@ -2,7 +2,7 @@
 
 A lightweight, single-file Python CLI tool for logging and summarizing personal expenses. Data persists locally in a CSV file.
 
-> This project is Stage 2 of a Chat AI → CLI AI prompt chaining workflow. See the full lab report: [Multi-Stage_AI_Workflow_Lab_NgohRodney.pdf](docs/Multi-Stage_AI_Workflow_Lab_NgohRodney.pdf)
+> This project is Stage 2 of a Chat AI → CLI AI prompt chaining workflow. The lab report (PDF) is submitted separately and is not tracked in this repo. See [multistage.md](multistage.md) for supplementary evidence: a clean Stage 2 terminal transcript, an adaptability test against a second CLI-based AI tool, and concrete efficiency numbers.
 
 ## Features
 

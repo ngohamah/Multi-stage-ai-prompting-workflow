@@ -2,3 +2,5 @@
 __pycache__/
 *.pyc
 expense-tracker/expenses.csv
+adaptability-check/expenses.csv
+docs/*.pdf
